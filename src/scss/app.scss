@@ -1,0 +1,11 @@
+/**
+*** Import SCSS partials
+ */
+// DO NOT! Really slow build times. Link bootstrap directly in HTML.
+// @import '~bootstrap/scss/bootstrap';
+@import 'core/app-variables';
+@import 'base';
+
+.page {
+  background: $white;
+}
